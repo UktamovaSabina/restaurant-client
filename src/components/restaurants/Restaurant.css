@@ -1,0 +1,31 @@
+.restaurants-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.restaurants-wrapper li {
+    max-width: 250px;
+    width: 100%;
+    padding: 15px 10px;
+    background-color: rgb(9, 230, 171);
+}
+ 
+img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.restaurant-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.restaurant-form input, .restaurant-form div {
+    width: 30%;
+}

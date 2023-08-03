@@ -1,0 +1,39 @@
+.order-btn {
+    position: fixed;
+    bottom: 8rem;
+    right: 10%;
+    z-index: 10;
+}
+
+.foods-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.food-img {
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.food-info-body {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.039);
+}
+
+.food-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.food-form input, .food-form div, .food-form select {
+    width: 30%;
+}
